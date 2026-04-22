@@ -431,7 +431,7 @@ export default function ChatPage() {
               {/* Quick Template Messages */}
               <div className="flex items-center space-x-2 mt-3 overflow-x-auto pb-1">
                 <span className="text-xs text-dark-500 whitespace-nowrap">Quick replies:</span>
-                {['Thanks!', 'Sure, let me check', 'I'll get back to you'].map((template) => (
+                {['Thanks!', 'Sure, let me check', "I'll get back to you"].map((template) => (
                   <button
                     key={template}
                     onClick={() => setMessageInput(template)}
